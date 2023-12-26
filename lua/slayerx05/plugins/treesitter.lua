@@ -6,7 +6,7 @@ return {
 
 		configs.setup({
 			-- A list of parser names, or "all"
-			ensure_installled = {"help", "javascript", "typescript", "c", "lua", "rust", "go", "tsx", "bash", "python"},
+			ensure_installled = {"help", "javascript", "typescript", "lua", "rust", "go", "tsx", "bash", "python"},
 
 			-- Install parsers synchronously (only applird to `ensure_installed`)
 			sync_install = false,
