@@ -4,7 +4,7 @@ return {
   opts = {
     options = {
       icons_enabled = true,
-      theme = 'onedark',
+      theme = 'dracula',
       component_separators = '|',
       section_separators = '',
     },
