@@ -26,3 +26,8 @@ vim.keymap.set("v", "<leader>d", '"+d')
 
 -- find and replace word
 vim.keymap.set("n", "<leader>s", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>")
+
+
+-- buffer navigation
+vim.keymap.set("n", "<leader>n", ":bnext<CR>", {silent = true})
+vim.keymap.set("n", "<leader>e", ":bprev<CR>", {silent = true})
