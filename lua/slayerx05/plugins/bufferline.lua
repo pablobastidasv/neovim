@@ -4,8 +4,9 @@ return {
   version = "*",
   opts = { -- require(bufferline).setup(opts)
     options = {
-      mode = "tabs",
+      mode = "buffers",
       separator_style = "slant",
+      diagnostics = "nvim_lsp",
     },
   },
 }
