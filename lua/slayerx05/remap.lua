@@ -30,3 +30,4 @@ vim.keymap.set("n", "<leader>s", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left>
 -- buffer navigation
 vim.keymap.set("n", "<C-e>", ":bnext<CR>", { silent = true })
 vim.keymap.set("n", "<C-n>", ":bprev<CR>", { silent = true })
+vim.keymap.set("n", "<C-w>", ":bdelete<CR>", { silent = true })
