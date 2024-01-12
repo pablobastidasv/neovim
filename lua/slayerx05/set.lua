@@ -28,3 +28,6 @@ vim.o.smartcase = true
 
 -- Set completeopt to have a better completion experience
 -- vim.o clompleteopt= 'menuone,noselect'
+
+vim.o.splitbelow = true -- Force Split Below
+vim.o.splitright = true -- Force Split Right
