@@ -1,3 +1,18 @@
+Prerequisites:
+
+For telescope:
+
+```bash
+brew install ripgrep
+brew install fd
+```
+
+For Go debuging
+
+```bash
+brew install delve
+```
+
 Install via:
 
 ```bash
