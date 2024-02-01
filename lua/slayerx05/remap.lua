@@ -25,9 +25,14 @@ vim.keymap.set("n", "<leader>d", '"+d')
 vim.keymap.set("v", "<leader>d", '"+d')
 
 -- find and replace word
-vim.keymap.set("n", "<leader>s", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>")
+vim.keymap.set("n", "<leader>r", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>")
 
 -- buffer navigation
 vim.keymap.set("n", "<C-e>", ":bnext<CR>", {})
 vim.keymap.set("n", "<C-n>", ":bprev<CR>", {})
 vim.keymap.set("n", "<C-w>w", ":%bd|e#<CR>", {})
+
+-- save and exit
+vim.keymap.set("n", "<leader>s", ":w<CR>")
+vim.keymap.set("n", "<leader>q", ":wq<CR>")
+vim.keymap.set("n", "<leader>qa", ":wqa<CR>")
