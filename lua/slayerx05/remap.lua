@@ -34,6 +34,6 @@ vim.keymap.set("n", "<C-n>", ":bprev<CR>", {})
 vim.keymap.set("n", "<C-w>w", ":%bd|e#<CR>", {})
 
 -- save and exit
-vim.keymap.set("n", "<leader>s", ":w<CR>")
+vim.keymap.set("n", "<leader>s", ":wa<CR>")
 vim.keymap.set("n", "<leader>q", ":wq<CR>")
 vim.keymap.set("n", "<leader>qa", ":wqa<CR>")
