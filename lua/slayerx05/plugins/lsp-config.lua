@@ -43,6 +43,7 @@ return {
             lspconfig.cssls.setup({
                 capabilities = capabilities,
             })
+
             -- :h vim.lsp.buf
             vim.keymap.set("n", "K", vim.lsp.buf.hover, {}) -- shows documentation
             vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
