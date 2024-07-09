@@ -32,6 +32,7 @@ vim.keymap.set("n", "<leader>r", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left>
 vim.keymap.set("n", "<C-e>", ":bnext<CR>", {})
 vim.keymap.set("n", "<C-n>", ":bprev<CR>", {})
 vim.keymap.set("n", "<C-w>w", ":%bd|e#<CR>", {})
+vim.keymap.set("n", "<C-w>x", ":bdelete<CR>", {})
 
 -- save and exit
 vim.keymap.set("n", "<leader>s", ":wa<CR>")
