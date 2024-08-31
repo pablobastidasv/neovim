@@ -40,6 +40,11 @@ return {
             })
             lspconfig.gopls.setup({
                 capabilities = capabilities,
+                settings = {
+                    gopls = {
+                        buildFlags = { "-tags=integration" },
+                    },
+                },
             })
             lspconfig.clojure_lsp.setup({
                 capabilities = capabilities,
