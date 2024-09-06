@@ -19,6 +19,13 @@ return {
                 filtered_items = {
                     hide_gitignored = false,
                     hide_dotfiles = false,
+                    hide_by_name = {
+                        ".git",
+                    },
+                    hide_by_pattern = {
+                        "*_templ.go",
+                        "*_templ.txt",
+                    },
                 },
             },
 
