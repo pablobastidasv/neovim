@@ -74,6 +74,19 @@ return {
                     },
                 },
             })
+            lspconfig.dartls.setup({
+                capabilities = capabilities,
+                settings = {
+                    dart = {
+                        analysisExcludedFolders = {
+                            vim.fn.expand("$HOME/AppData/Local/Pub/Cache"),
+                            vim.fn.expand("$HOME/.pub-cache"),
+                            vim.fn.expand("/opt/homebrew/"),
+                            vim.fn.expand("$HOME/Developer/.apps/flutter/"),
+                        },
+                    },
+                },
+            })
 
             -- :h vim.lsp.buf
             vim.keymap.set("n", "K", vim.lsp.buf.hover, {}) -- shows documentation
