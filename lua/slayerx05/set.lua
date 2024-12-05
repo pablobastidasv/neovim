@@ -31,3 +31,6 @@ vim.o.smartcase = true
 
 vim.o.splitbelow = true -- Force Split Below
 vim.o.splitright = true -- Force Split Right
+
+-- no swap files
+vim.o.swapfile = false
